@@ -1,4 +1,1 @@
-# Add your requirements here like:
-# numpy
-# scipy>=0.9
-
+pyusb==1.0.0b2

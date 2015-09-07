@@ -1,11 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-    Setup file for pyluxafor.
-
-    This file was generated with PyScaffold 2.1, a tool that easily
-    puts up a scaffold for your new Python project. Learn more under:
-    http://pyscaffold.readthedocs.org/
+Setup file for pyluxafor.
 """
 
 import inspect
@@ -35,8 +31,8 @@ __location__ = os.path.join(os.getcwd(), os.path.dirname(
     inspect.getfile(inspect.currentframe())))
 
 # general settings
-pyscaffold_version = "2.1"
-package = "pyluxafor"
+pyscaffold_version = '2.1'
+package = 'pyluxafor'
 namespace = []
 root_pkg = namespace[0] if namespace else package
 if namespace:
@@ -549,7 +545,7 @@ def setup_package():
           author=metadata['author'],
           author_email=metadata['author_email'],
           license=metadata['license'],
-          long_description=read('README.rst'),
+          long_description=read('README.md'),
           classifiers=metadata['classifiers'],
           test_suite='tests',
           packages=setuptools.find_packages(exclude=['tests', 'tests.*']),
